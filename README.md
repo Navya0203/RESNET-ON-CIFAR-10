@@ -4,10 +4,18 @@ Our experiments on the CIFAR10 dataset with custom ResNet architectures involvin
 
 ## GETTING STARTED
 
-After cloning the repository,follow these steps:
 
-1) Navigate to the main project folder called `Main_Project_Model(checkpoint included)`
-2) This contains the Jupyter notebook called `MiniProject_Model(SE_Enhanced_Basic_ResNet)`  and the model checkpoint to reproduce the performance of the model called`lat_model`.
-3) You can run the `MiniProject_Model(SE_Enhanced_Basic_ResNet)` to train our custom ResNet and also create predictions on the no-label test dataset.
+Welcome to our project! To get up and running with the repository you've cloned, please follow the steps below:
 
+1) First, navigate to the primary project directory titled `Main_Project_Model(checkpoint included)`. This directory is structured to contain everything you need to work with our custom ResNet model.
+
+2) Within this directory, you'll find a Jupyter notebook named `MiniProject_Model(SE_Enhanced_Basic_ResNet)`. This notebook is your starting point for training the model and contains all the necessary code, from data preprocessing to the training loop.
+
+3) Alongside the notebook, there's a model checkpoint file named `lat_model`. It is crucial that this checkpoint file is located in the same directory as the Jupyter notebook. This placement ensures that when you run the notebook, it can seamlessly locate and load the model checkpoint without any path issues.
+
+4) As you reach the end of the notebook, you'll find the code snippet to load the saved model checkpoint. This allows you to quickly evaluate the model's performance and accuracy on the test dataset without the need to retrain the model from scratch.
+
+5) To see the model in action, simply run the `MiniProject_Model(SE_Enhanced_Basic_ResNet)` notebook. It will automatically use the `lat_model` checkpoint to instantiate the trained model, allowing you to validate the performance and accuracy on your no-label test dataset immediately.
+
+By ensuring that the notebook and the model checkpoint are in the same directory, you'll be able to fully reproduce our environment and results, making your experience as smooth as possible. Enjoy exploring the capabilities of our custom ResNet model!
 
