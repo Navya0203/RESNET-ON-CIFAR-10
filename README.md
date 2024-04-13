@@ -3,7 +3,11 @@ In this project, we proposed a straightforward strategy to engineer Residual net
 Our experiments on the CIFAR10 dataset with custom ResNet architectures involving Squeeze and Activation Blocks and parameter sharing demonstrate that it is possible to maintain good accuracy despite reducing parameters.
 
 ## GETTING STARTED
-
+```bash
+git clone https://github.com/your-username/your-repository-name.git
+cd your-repository-name
+jupyter notebook
+```
 
 Welcome to our project! To get up and running with the repository you've cloned, please follow the steps below:
 
