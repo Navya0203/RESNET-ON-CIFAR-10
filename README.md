@@ -4,13 +4,10 @@ Our experiments on the CIFAR10 dataset with custom ResNet architectures involvin
 
 ## GETTING STARTED
 
-After cloning the repository, navigate to the main project folder called `Main_Project_Model(checkpoint included)` which contains the Jupyter notebook called `MiniProject_Model(SE_Enhanced_Basic_ResNet)`  and the model checkpoint to reproduce the performance of the model called`lat_model`. 
+After cloning the repository,follow these steps:
 
-To generate a predictions CSV by running the notebook, follow these steps:
+1) Navigate to the main project folder called `Main_Project_Model(checkpoint included)`
+2) This contains the Jupyter notebook called `MiniProject_Model(SE_Enhanced_Basic_ResNet)`  and the model checkpoint to reproduce the performance of the model called`lat_model`.
+3) You can run the `MiniProject_Model(SE_Enhanced_Basic_ResNet)` to train our custom ResNet and also create predictions on the no-label test dataset.
 
-```bash
-git clone https://github.com/your-username/your-repository-name.git
-cd your-repository-name
-jupyter notebook
-```
-If you want to check our model performance, you can run 'lat_model' on your own environment. 
+
