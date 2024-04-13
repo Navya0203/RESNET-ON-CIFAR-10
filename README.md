@@ -5,7 +5,7 @@ Our experiments on the CIFAR10 dataset with custom ResNet architectures involvin
 ## GETTING STARTED
 ```bash
 git clone https://github.com/Navya0203/RESNET-ON-CIFAR-10.git
-cd your-repository-name
+cd RESNET-ON-CIFAR-10
 jupyter notebook
 ```
 
