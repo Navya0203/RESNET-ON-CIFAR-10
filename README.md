@@ -15,7 +15,7 @@ Welcome to our project! To get up and running with the repository you've cloned,
 
 4) As you reach the end of the notebook, you'll find the code snippet to load the saved model checkpoint. This allows you to quickly evaluate the model's performance and accuracy on the test dataset without the need to retrain the model from scratch.
 
-5) To see the model in action, simply run the `MiniProject_Model(SE_Enhanced_Basic_ResNet)` notebook. It will automatically use the `lat_model` checkpoint to instantiate the trained model, allowing you to validate the performance and accuracy on your no-label test dataset immediately.
+5) To see the checkpoint model in action, simply go to the end of the `MiniProject_Model(SE_Enhanced_Basic_ResNet)` notebook. It has the code to load the checkpoint and use the `lat_model` checkpoint to instantiate the trained model, allowing you to validate the performance and accuracy on your no-label test dataset immediately.
 
 By ensuring that the notebook and the model checkpoint are in the same directory, you'll be able to fully reproduce our environment and results, making your experience as smooth as possible. Enjoy exploring the capabilities of our custom ResNet model!
 
